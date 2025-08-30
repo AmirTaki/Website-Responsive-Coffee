@@ -62,8 +62,8 @@ header .navbar {
 .hero-section .content{
     color: #fff;
     max-width:1200px ;
-    margin: 0 auto;
     width: 100%;
+    margin: 0 auto;
 }
 .hero-section .content h1{
     font-size: 3rem;
@@ -73,4 +73,16 @@ header .navbar {
     font-weight: 300;
     margin-top: 15px;
     max-width: 600px;
+}
+
+.hero-section .content button {
+    background: #fff;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    padding: 12px 3px;
+    border-radius: 6px;
+    font-weight:500 ;
+    margin-top: 38px;
+    cursor: pointer;
 }
