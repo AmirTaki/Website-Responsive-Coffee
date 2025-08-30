@@ -157,4 +157,8 @@ header .navbar {
         font-size: 2.3rem;
         line-height: 60px;
     }
+
+    .hero-section .content button{
+        padding: 9px 18px;
+    } 
 }
