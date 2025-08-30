@@ -62,3 +62,7 @@ header .navbar {
 .hero-section .content{
     color: #fff
 }
+.hero-section .content h1{
+    font-size: 3rem;
+    max-width: 600px;
+}
