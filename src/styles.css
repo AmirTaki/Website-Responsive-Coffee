@@ -143,6 +143,9 @@ header .navbar {
     }
     .navbar a {
         color: #000;
+    }
 
+    .hero-section .content {
+        text-align: center;
     }
 }
