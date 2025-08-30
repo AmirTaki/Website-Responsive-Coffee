@@ -91,3 +91,14 @@ header .navbar {
     color: #fff;
     background: #C06B3E;
 }
+
+@media screen and (max-width : 850px) {
+    .navbar .menu-links{
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 260px;
+        height: 100vh;
+        background-color: #fff;
+    }
+}
