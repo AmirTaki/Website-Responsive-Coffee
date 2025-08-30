@@ -108,9 +108,6 @@ header .navbar {
 }
 
 
-header.show-mobile-menu .navbar .menu-links{
-    left : 0;
-}
 
 @media screen and (max-width : 900px) {
     #close-menu-btn, #menu-btn {
@@ -126,6 +123,12 @@ header.show-mobile-menu .navbar .menu-links{
         flex-direction: column;
         padding: 70px 40px 0;
         list-style: none;
+        transition:  left .15s;
+    }
+
+    
+    header.show-mobile-menu .navbar .menu-links{
+        left : 0;
     }
     .navbar a {
         color: #000;
