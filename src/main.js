@@ -8,6 +8,11 @@ menuBtn.addEventListener("click", (e) => {
     header.classList.toggle("show-mobile-menu")
 })
 
+
+
 closeMenuBtn.addEventListener("click" ,(e) => {
-    menuBtn.clcik()
+    menuBtn.click()
 })
+
+
+
