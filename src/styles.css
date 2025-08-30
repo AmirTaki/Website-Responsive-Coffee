@@ -107,6 +107,9 @@ header .navbar {
 }
 
 @media screen and (max-width : 900px) {
+    #close-menu-btn, #menu-btn {
+        display: block;
+    }
     .navbar .menu-links{
         position: fixed;
         left: 0;
