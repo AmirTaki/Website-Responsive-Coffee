@@ -28,6 +28,11 @@ header .navbar {
     margin: 0 auto;
 }
 
+
+.navbar .logo {
+    font-size: 2.1rem;
+    font-weight: 600;
+}
 .navbar .menu-links {
     display: flex;
     gap: 40px;
