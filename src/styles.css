@@ -80,9 +80,14 @@ header .navbar {
     outline: none;
     border: none;
     font-size: 1rem;
-    padding: 12px 3px;
+    padding: 12px 30px;
     border-radius: 6px;
     font-weight:500 ;
     margin-top: 38px;
     cursor: pointer;
+    transition: .2s ease;
+}
+.hero-section .content button:hover{
+    color: #fff;
+    background: #C06B3E;
 }
