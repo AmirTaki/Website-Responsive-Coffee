@@ -11,3 +11,8 @@ body{
     background-position: center;
     background-size: cover;
 }
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
