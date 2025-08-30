@@ -46,4 +46,9 @@ header .navbar {
 .navbar a {
     color: #fff;
     text-decoration: none;
+    transition: .2s;
+}
+
+.navbar a:hover {
+    color: #C06B3E;   
 }
