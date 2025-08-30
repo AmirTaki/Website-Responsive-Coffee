@@ -12,6 +12,14 @@ body{
     background-size: cover;
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    padding: 20px;
+}
+
 .navbar a {
     color: #fff;
     text-decoration: none;
