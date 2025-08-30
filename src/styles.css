@@ -92,7 +92,7 @@ header .navbar {
     background: #C06B3E;
 }
 
-@media screen and (max-width : 850px) {
+@media screen and (max-width : 900px) {
     .navbar .menu-links{
         position: relative;
         left: 0;
@@ -100,5 +100,11 @@ header .navbar {
         width: 260px;
         height: 100vh;
         background-color: #fff;
+        flex-direction: column;
+        padding: 70px 40px 0;
+    }
+    .navbar a {
+        color: #000;
+
     }
 }
