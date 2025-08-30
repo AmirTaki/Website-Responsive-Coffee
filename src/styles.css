@@ -110,6 +110,10 @@ header .navbar {
 
 
 @media screen and (max-width : 900px) {
+
+    header {
+        padding: 10px 20px;
+    }
     
     header.show-mobile-menu::before{
         content: '';
