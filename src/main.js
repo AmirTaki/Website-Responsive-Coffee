@@ -7,3 +7,7 @@ const closeMenuBtn = document.querySelector("#close-menu-btn")
 menuBtn.addEventListener("click", (e) => {
     header.classList.toggle("show-mobile-menu")
 })
+
+closeMenuBtn.addEventListener("click" ,(e) => {
+    menuBtn.clcik()
+})
