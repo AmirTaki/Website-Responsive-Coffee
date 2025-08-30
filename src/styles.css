@@ -95,9 +95,11 @@ header .navbar {
 #menu-btn {
     color: #fff;
     cursor: pointer;
+    display: none;
 }
 
 #close-menu-btn{
+    display: none;
     position: absolute;
     cursor: pointer;
     right: 20px;
